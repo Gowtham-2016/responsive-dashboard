@@ -86,27 +86,27 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-between gap-8 flex-wrap">
+                <div className="flex justify-between gap-8">
                     <StatCard 
-                        className="flex flex-col rounded-xl bg-harp h-[120px] w-[214px] p-7"
+                        className="flex flex-col rounded-xl bg-harp h-[120px]  w-full p-7"
                         icon={CardOneIcon}
                         label={"Total Revenues"}
                         value={"$2,129,430"}     
                     />
                     <StatCard 
-                        className="flex flex-col rounded-xl bg-parchment h-[120px] w-[214px] p-7"
+                        className="flex flex-col rounded-xl bg-parchment h-[120px] w-full p-7"
                         icon={CardTwoIcon}
                         label={"Total Transactions"}
                         value={"1520"}     
                     />
                     <StatCard 
-                        className="flex flex-col rounded-xl bg-bizarre h-[120px] w-[214px] p-7"
+                        className="flex flex-col rounded-xl bg-bizarre h-[120px] w-full p-7"
                         icon={CardThreeIcon}
                         label={"Total Likes"}
                         value={"9721"}     
                     />
                     <StatCard 
-                        className="flex flex-col rounded-xl bg-snuff h-[120px] w-[214px] p-7"
+                        className="flex flex-col rounded-xl bg-snuff h-[120px] w-full p-7"
                         icon={CardFourIcon}
                         label={"Total Users"}
                         value={"892"}     
@@ -202,6 +202,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

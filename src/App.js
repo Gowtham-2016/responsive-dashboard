@@ -8,13 +8,6 @@ import Protected from './components/Protected';
 const App = () => {
   const [isSignedIn, setIsSignedIn] = useState(true);
 
-  // const signin = () => {
-  //   setIsSignedIn(true)
-  // }
-  // const signout = () => {
-  //   setIsSignedIn(false)
-  // }
-
   return (
     <BrowserRouter>
         <Routes>

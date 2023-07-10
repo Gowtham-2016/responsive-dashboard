@@ -3,7 +3,38 @@ import AppleIcon from '../assets/images/apple-icon.svg';
 import Button from '../components/Button';
 import InputField from '../components/InputField';
 import { TEXTS } from '../constants';
-
+const data = [
+    {
+      name: '',
+      uv: 100,
+      pv: 200,
+      amt: 240,
+    },
+    {
+      name: 'Week 1',
+      uv: 400,
+      pv: 400,
+      amt: 221,
+    },
+    {
+      name: 'Week 2',
+      uv: 100,
+      pv: 200,
+      amt: 229,
+    },
+    {
+      name: 'Week 3',
+      uv: 400,
+      pv: 300,
+      amt: 200,
+    },
+    {
+        name: 'Week 4',
+        uv: 300,
+        pv: 200,
+        amt: 400,
+      },
+  ];
 const Login = () => {
     return (
         <div className="flex h-screen bg-gray-100 font-lato flex-col sm:flex-row">
